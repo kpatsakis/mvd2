@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; data = NULL; data = ( int64_t * ) realloc ( data , 100 * sizeof ( int64_t ) ); data [ 0 ] = 5L L CWE401_Memory_Leak__int64_t_realloc_64b_goodB2GSink ( & data ); void CWE401_Memory_Leak__int64_t_realloc_64b_goodB2GSink(void * dataVoidPtr) int64_t * * dataPtr = ( int64_t * * ) dataVoidPtr ; int64_t * data = ( * dataPtr ) ; free ( data ); 

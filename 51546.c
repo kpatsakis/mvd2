@@ -1,0 +1,1 @@
+static void goodG2B() long * data ; data = ( long * ) malloc ( 100 * sizeof ( long ) ); data [ i ] = 5L; CWE416_Use_After_Free__malloc_free_long_63b_goodG2BSink ( & data ); void CWE416_Use_After_Free__malloc_free_long_63b_goodG2BSink(long * * dataPtr) long * data = * dataPtr ; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); 

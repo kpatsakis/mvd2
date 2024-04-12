@@ -1,0 +1,1 @@
+void CWE467_Use_of_sizeof_on_Pointer_Type__short_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; badShort = ( short * ) malloc ( sizeof ( badShort ) ); * badShort = 5; printShortLine ( * badShort ); void printShortLine (short shortNumber) printf ( "%hd\n" , shortNumber ); free ( badShort ); 

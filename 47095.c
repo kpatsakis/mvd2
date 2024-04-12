@@ -1,0 +1,1 @@
+static void goodG2B() vector < int * > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<int *> dataVector) int * data = dataVector [ 2 ] ; int source [ 100 ] = { 0 } ; size_t i ; for (i = 0; i < 100; i++) data [ i ] = source [ i ]; free ( data ); 

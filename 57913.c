@@ -1,0 +1,1 @@
+int create_dns_file() char * temp ; int i , len = 0 ; temp = "HEADER JUNK:"; len += strlen ( temp ); len += strlen ( temp ); len += 4; len += strlen ( temp ); len += 11; len += strlen ( temp ); for(i=0; i<len; i++, p++) return len ; 

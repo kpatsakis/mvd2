@@ -1,0 +1,1 @@
+void bad() twoIntsStruct * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = new twoIntsStruct if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

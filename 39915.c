@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; structType myStruct ; data = NULL; data = ( int64_t * ) calloc ( 100 , sizeof ( int64_t ) ); myStruct . structFirst = data; goodB2GSink ( myStruct ); void goodB2GSink(structType myStruct) int64_t * data = myStruct . structFirst ; free ( data ); 

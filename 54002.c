@@ -1,0 +1,1 @@
+static void *accept_thread(void *ignore) int as ; socklen_t sinlen ; struct skinnysession * s ; sinlen = sizeof ( sin ); as = accept ( skinnysock , ( struct sockaddr * ) & sin , & sinlen ); if ( as < 0 )  if ( ast_atomic_fetchadd_int ( & unauth_sessions , + 1 ) >= auth_limit )  if ( ! ( s = ast_calloc ( 1 , sizeof ( struct skinnysession ) ) ) )  close ( as ); 

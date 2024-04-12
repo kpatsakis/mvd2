@@ -1,0 +1,1 @@
+static void goodB2G1() long * data ; data = NULL; data = ( long * ) realloc ( data , 1 * sizeof ( long ) ); CWE690_NULL_Deref_From_Return__long_realloc_22_goodB2G1Sink ( data ); void CWE690_NULL_Deref_From_Return__long_realloc_22_goodB2G1Sink(long * data) if ( CWE690_NULL_Deref_From_Return__long_realloc_22_goodB2G1Global )  if ( data != NULL )  data [ 0 ] = 5L; free ( data ); 

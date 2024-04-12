@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__double_pointer_malloc_use_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; double * data ; double * * pointer = ( double * * ) malloc ( sizeof ( double * ) ) ; data = ( double * ) malloc ( sizeof ( double ) ); * data = 5.0; * pointer = data; free ( pointer ); 

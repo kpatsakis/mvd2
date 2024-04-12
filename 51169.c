@@ -1,0 +1,1 @@
+void CWE534_Info_Exposure_Debug_Log__w32_char_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; FILE * pFile = fopen ( "debug.txt" , "a+" ) ; fprintf ( pFile , "User attempted access with password: %s\n" , password ); if ( pFile )  fclose ( pFile ); fprintf ( pFile , "User attempted access\n" ); if ( pFile )  fclose ( pFile ); 

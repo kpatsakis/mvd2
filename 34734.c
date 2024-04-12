@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = ( int * ) malloc ( 10 * sizeof ( int ) ); data [ i ] = i; data [ i ] = i; for(i=0; i<10; i++) printIntLine ( data [ i ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); for(i=0; i<10; i++) printIntLine ( data [ i ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

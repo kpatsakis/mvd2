@@ -1,0 +1,1 @@
+int cgiMain() fprintf ( cgiOut , "<html><head>\n" ); fprintf ( cgiOut , "<title>Cross-Site Scripting: 1</title></head>\n" ); fprintf ( cgiOut , "<body><h1>XSS Test</h1>\n" ); char q [ 4 ] [ 1024 ] unsigned int i = 0 ; for (; i < 4; ++i) if ( strlen ( q [ i ] ) )  fprintf ( cgiOut , "Value number %d = %s<br />" , i , q [ i ] ); fprintf ( cgiOut , "</body></html>\n" ); 

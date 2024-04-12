@@ -1,0 +1,1 @@
+void CWE400_Resource_Exhaustion__fgets_sleep_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  count = atoi ( inputBuffer ); SLEEP ( count ); if ( count > 0 && count <= 2000 )  SLEEP ( count ); 

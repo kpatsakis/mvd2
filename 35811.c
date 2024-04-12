@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__strdup_char_51_bad() char * data ; char myString [ ] = "myString" ; data = strdup ( myString ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); CWE401_Memory_Leak__strdup_char_51b_badSink ( data ); void CWE401_Memory_Leak__strdup_char_51b_badSink(char * data) 

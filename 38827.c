@@ -1,0 +1,1 @@
+void CWE328_Reversible_One_Way_Hash__w32_SHA1_08_bad() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; UCHAR savedHash [ SHA1_SUM_SIZE ] , calcHash [ SHA1_SUM_SIZE ] ; size_t i ; for (i = 0; i < SHA1_SUM_SIZE; i++) ULONG val ; savedHash [ i ] = ( UCHAR ) val; if ( memcmp ( savedHash , calcHash , SHA1_SUM_SIZE * sizeof ( UCHAR ) ) == 0 )  

@@ -1,0 +1,1 @@
+static void goodG2B() double * data ; data = NULL; data = ( double * ) malloc ( sizeof ( * data ) ); * data = 1.7E300; baseObject -> action ( data ); void CWE122_Heap_Based_Buffer_Overflow__sizeof_double_82_goodG2B::action(double * data) printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); free ( data ); 

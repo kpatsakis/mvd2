@@ -1,0 +1,1 @@
+void bad() char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = atoi ( inputBuffer ); baseObject -> action ( data ); void CWE127_Buffer_Underread__CWE839_fgets_82_bad::action(int data) if ( data < 10 )  printIntLine ( buffer [ data ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

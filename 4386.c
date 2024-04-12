@@ -1,0 +1,1 @@
+void bad() TwoIntsClass * data ; data = NULL; data = NULL; data = ( TwoIntsClass * ) realloc ( data , 100 * sizeof ( TwoIntsClass ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, TwoIntsClass *> dataMap) TwoIntsClass * data = dataMap [ 2 ] ; 

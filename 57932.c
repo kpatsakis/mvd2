@@ -1,0 +1,1 @@
+static int CVE_2009_3080_PATCHED_gdth_read_event(gdth_ha_str *ha, int handle, gdth_evt_str *estr) gdth_evt_str * e ; int eindex ; if ( handle == - 1 )  eindex = eoldidx; eindex = handle; estr -> event_source = 0; if ( eindex < 0 || eindex >= MAX_EVENTS )  e = & ebuffer [ eindex ]; if ( e -> event_source != 0 )  memcpy ( estr , e , sizeof ( gdth_evt_str ) ); 

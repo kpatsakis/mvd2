@@ -1,0 +1,1 @@
+static void goodG2B() char * password ; password = ""; password = goodG2BSource ( password ); static char * goodG2BSource(char * password) password = ( char * ) malloc ( 100 * sizeof ( char ) ); if ( password == NULL )  if ( ! VirtualLock ( password , 100 * sizeof ( char ) ) )  strcpy ( password , "Password1234!" ); return password ; 

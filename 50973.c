@@ -1,0 +1,1 @@
+static void goodB2G() int i , k ; struct _twoIntsStruct * data ; data = NULL; for(i = 0; i < 1; i++) data = ( struct _twoIntsStruct * ) malloc ( 100 * sizeof ( struct _twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; for(k = 0; k < 1; k++) free ( data ); 

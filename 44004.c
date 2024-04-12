@@ -1,0 +1,1 @@
+static void goodB2G() double * data ; data = ( double * ) malloc ( 10 * sizeof ( double ) ); goodB2GSource ( data ); void goodB2GSource(double * &data) data [ i ] = ( double ) i; data [ i ] = ( double ) i; for(i=0; i<10; i++) printDoubleLine ( data [ i ] ); void printDoubleLine(double doubleNumber) 

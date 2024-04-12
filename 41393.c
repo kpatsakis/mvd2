@@ -1,0 +1,1 @@
+static void goodG2B() HANDLE data ; data = CreateFile ( "GoodSource_w32CreateFile.txt" , ( GENERIC_WRITE | GENERIC_READ ) , 0 , NULL , OPEN_ALWAYS , FILE_ATTRIBUTE_NORMAL , NULL ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodG2BSink ( dataMap ); void goodG2BSink(map<int, HANDLE> dataMap) HANDLE data = dataMap [ 2 ] ; CloseHandle ( data ); 

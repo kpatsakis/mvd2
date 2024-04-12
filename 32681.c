@@ -1,0 +1,1 @@
+void bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; badSource ( data ); void badSource(char * &data) FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgets ( data , 100 , pFile ) == NULL )  data [ 0 ] = '\0'; data [ 0 ] = '\0'; 

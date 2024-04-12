@@ -1,0 +1,1 @@
+void CWE369_Divide_by_Zero__float_fgets_17_bad() int i , j ; for(i = 0; i < 1; i++) char inputBuffer [ CHAR_ARRAY_SIZE ] ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = ( float ) atof ( inputBuffer ); int result = ( int ) ( 100.0 / data ) ; printIntLine ( result ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

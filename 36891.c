@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__long_calloc_31_bad() long * data ; data = ( long * ) calloc ( 1 , sizeof ( long ) ); long * dataCopy = data ; long * data = dataCopy ; data [ 0 ] = 5L; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

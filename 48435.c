@@ -1,0 +1,1 @@
+void CWE459_Incomplete_Cleanup__wchar_t_04_bad() if ( STATIC_CONST_TRUE )  wchar_t * filename ; wchar_t tmpl [ ] = L "badXXXXXX" FILE * pFile ; filename = MKTEMP ( tmpl ); if ( filename != NULL )  pFile = FOPEN ( filename , L "w" ) if ( pFile != NULL )  fprintf ( pFile , "Temporary file" ); fclose ( pFile ); 

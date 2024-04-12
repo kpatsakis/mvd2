@@ -1,0 +1,1 @@
+void dynamic_buffer_underrun_020 () int * buf = ( int * ) calloc ( 5 , sizeof ( int ) ) ; int index = 0 ; int index1 ; int index2 ; index1 = index; index2 = index1; if ( buf != NULL )  buf [ index2 ] = 1; free ( buf ); 

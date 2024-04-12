@@ -1,0 +1,1 @@
+static CVE_2015_1159_PATCHED_cgi_puts(const char *s,			/* I - String to output FILE       *out)		/* I - Output file */ while ( * s )  if ( * s == '<' )  if ( * s == '>' )  if ( * s == '\"' )  if ( * s == '\'' )  fputs ( "&#39;" , out ); s ++; 

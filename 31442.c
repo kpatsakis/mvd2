@@ -1,0 +1,1 @@
+void CWE590_Free_Memory_Not_on_Heap__free_int_static_32_bad() int * data ; int * * dataPtr2 = & data ; data = NULL; static int dataBuffer [ 100 ] ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5; data = dataBuffer; int * data = * dataPtr2 ; free ( data ); 

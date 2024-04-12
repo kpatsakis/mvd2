@@ -1,0 +1,1 @@
+template<class MDefinition* convertSimd(MDefinition* vec, MIRType from, MIRType to) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; T * ins = T :: NewAsmJS ( alloc ( ) , vec , from , to ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

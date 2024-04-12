@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; data = NULL; data = CWE690_NULL_Deref_From_Return__int64_t_malloc_61b_goodB2GSource ( data ); int64_t * CWE690_NULL_Deref_From_Return__int64_t_malloc_61b_goodB2GSource(int64_t * data) data = ( int64_t * ) malloc ( 1 * sizeof ( int64_t ) ); return data ; if ( data != NULL )  data [ 0 ] = 5L L free ( data ); 

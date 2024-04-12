@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = new wchar_t if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

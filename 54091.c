@@ -1,0 +1,1 @@
+static void goodG2B() list < int64_t * > dataList ; goodG2BSink ( dataList ); void goodG2BSink(list<int64_t *> dataList) int64_t * data = dataList . back ( ) ; int64_t source [ 100 ] = { 0 } ; size_t i ; for (i = 0; i < 100; i++) data [ i ] = source [ i ]; free ( data ); 

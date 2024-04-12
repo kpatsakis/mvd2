@@ -1,0 +1,1 @@
+void CWE467_Use_of_sizeof_on_Pointer_Type__char_17_bad() int j ; for(j = 0; j < 1; j++) badChar = ( char * ) malloc ( sizeof ( badChar ) ); * badChar = 'B'; printHexCharLine ( * badChar ); void printHexCharLine (char charHex) printf ( "%02x\n" , charHex ); free ( badChar ); 

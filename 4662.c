@@ -1,0 +1,1 @@
+void CWE197_Numeric_Truncation_Error__short_fgets_17_bad() int i ; for(i = 0; i < 1; i++) char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = ( short ) atoi ( inputBuffer ); char charData = ( char ) data ; printHexCharLine ( charData ); void printHexCharLine (char charHex) printf ( "%02x\n" , charHex ); 

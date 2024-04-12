@@ -1,0 +1,1 @@
+static void goodG2B() int h ; wchar_t * password ; wchar_t passwordBuffer [ 100 ] = L "" password = passwordBuffer; for(h = 0; h < 1; h++) if ( fgetws ( password , 100 , stdin ) == NULL )  password [ 0 ] = L '\0' passwordLen = wcslen ( password ); if ( passwordLen > 0 )  

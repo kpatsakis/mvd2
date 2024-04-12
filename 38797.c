@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_calloc_04_bad() char * data ; data = NULL; data = ( char * ) calloc ( 20 , sizeof ( char ) ); if ( STATIC_CONST_TRUE )  strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

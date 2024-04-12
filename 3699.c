@@ -1,0 +1,1 @@
+void CWE426_Untrusted_Search_Path__char_popen_31_bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; strcpy ( data , BAD_OS_COMMAND ); char * dataCopy = data ; char * data = dataCopy ; pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

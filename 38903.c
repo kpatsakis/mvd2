@@ -1,0 +1,1 @@
+static void goodB2G2() size_t data ; data = 0; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = rand ( ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; if ( data > wcslen ( HELLO_STRING ) && data < 100 )  

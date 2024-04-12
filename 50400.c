@@ -1,0 +1,1 @@
+int main() char * buf ; char * t ; unsigned i ; unsigned length ; buf = new ( nothrow ) char [ 25 ] if ( buf == 0 )  length = rand ( ) % 50 + 1; t = new ( nothrow ) char [ length ] if ( t == 0 )  for (i=0;i<45;i++)t[i] = (char)((rand() % 26)  + 'a'); t [ i + 1 ] = '\0'; buf [ strlen ( t ) ] = t [ strlen ( t ) - 1 ]; delete [ ] delete [ ] buf 

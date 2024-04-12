@@ -1,0 +1,1 @@
+static void goodB2G() twoIntsStruct * data ; CWE401_Memory_Leak__twoIntsStruct_malloc_34_unionType myUnion ; data = NULL; data = ( twoIntsStruct * ) malloc ( 100 * sizeof ( twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; myUnion . unionFirst = data; twoIntsStruct * data = myUnion . unionSecond ; free ( data ); 

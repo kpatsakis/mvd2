@@ -1,0 +1,1 @@
+void bad() FILE * data ; map < int , FILE * > dataMap ; data = NULL; data = freopen ( "BadSource_freopen.txt" , "w+" , stdin ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, FILE *> dataMap) FILE * data = dataMap [ 2 ] ; fclose ( data ); 

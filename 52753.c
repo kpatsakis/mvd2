@@ -1,0 +1,1 @@
+static void goodB2G() FILE * data ; data = NULL; data = goodB2GSource ( data ); static FILE * goodB2GSource(FILE * data) data = fopen ( "BadSource_fopen.txt" , "w+" ); return data ; data = fopen ( "GoodSink_fopen.txt" , "w+" ); if ( data != NULL )  fclose ( data ); 

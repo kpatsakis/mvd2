@@ -1,0 +1,1 @@
+static void good1() if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; double * data ; double * * pointer = ( double * * ) malloc ( sizeof ( double * ) ) ; data = ( double * ) malloc ( sizeof ( double ) ); * data = 5.0; * pointer = data; free ( pointer ); 

@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_double_34_bad() double * data ; data = ( double * ) malloc ( sizeof ( data ) ); * data = 1.7E300; myUnion . unionFirst = data; double * data = myUnion . unionSecond ; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); free ( data ); 

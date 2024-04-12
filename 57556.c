@@ -1,0 +1,1 @@
+void CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_21_bad() wchar_t * password ; password = L "" password = badSource ( password ); static wchar_t * badSource(wchar_t * password) if ( badStatic )  password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wcscpy ( password , L "Password1234!" ) return password ; free ( password ); 

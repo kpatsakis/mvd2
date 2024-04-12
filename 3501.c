@@ -1,0 +1,1 @@
+void CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32_bad() wchar_t * data ; wchar_t * * dataPtr2 = & data ; data = NULL; static wchar_t dataBuffer [ 100 ] ; wmemset ( dataBuffer , L 'A' , 100 - 1 dataBuffer [ 100 - 1 ] = L '\0' data = dataBuffer; wchar_t * data = * dataPtr2 ; free ( data ); 

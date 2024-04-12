@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = new char [ 100 ]; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; dest [ i ] = data [ i ]; dest [ 50 - 1 ] = '\0'; 

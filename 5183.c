@@ -1,0 +1,1 @@
+void goodG2BSink_b(char * data) goodG2BSink_c ( data ); void goodG2BSink_c(char * data) goodG2BSink_d ( data ); void goodG2BSink_d(char * data) goodG2BSink_e ( data ); void goodG2BSink_e(char * data) size_t i , dataLen ; dataLen = strlen ( data ); for (i = 0; i < dataLen; i++) 

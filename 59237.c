@@ -1,0 +1,1 @@
+static void goodG2B1() char * data ; char * dataGoodBuffer = ( char * ) malloc ( sizeof ( TwoIntsClass ) ) ; if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; data = dataGoodBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

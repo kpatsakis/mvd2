@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; char * * dataPtr1 = & data ; char * * dataPtr2 = & data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data [ 0 ] = '\0'; char * data = * dataPtr1 ; strcpy ( data , BAD_SOURCE_FIXED_STRING ); char * data = * dataPtr2 ; free ( data ); 

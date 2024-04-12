@@ -1,0 +1,1 @@
+static _cdebbuf *CVE_2007_1217_PATCHED_bufprint(_cdebbuf *cdb, char *fmt,...) va_list f ; size_t n , r ; if ( ! cdb )  r = cdb -> size - cdb -> pos; n = vsnprintf ( cdb -> p , r , fmt , f ); if ( n >= r )  while ( ( ns - cdb -> pos ) <= n )  cdb -> p += n; cdb -> pos += n; return cdb ; 

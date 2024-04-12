@@ -1,0 +1,1 @@
+ main(int argc, char **argv) char * userstr ; if ( argc > 1 )  userstr = argv [ 1 ]; test ( userstr );  test(char *str) int x ; for(x = 0; validGames[x]; x++) if ( strcmp ( str , validGames [ x ] ) == 0 )  
